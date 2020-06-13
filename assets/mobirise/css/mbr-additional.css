@@ -1443,7 +1443,7 @@ section.lazy-placeholder:after {
 .cid-rM40FxQPfw {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-image: url("../../../assets/images/sa-flag-640x360.jpeg");
+  background-image: url("../../../assets/images/new-1000x1000.png");
 }
 .cid-rM40FxQPfw .mbr-overlay {
   background-color: #232323;
@@ -1511,11 +1511,11 @@ section.lazy-placeholder:after {
 }
 .cid-rM40FxQPfw input::-webkit-input-placeholder,
 .cid-rM40FxQPfw textarea::-webkit-input-placeholder {
-  color: #c1c1c1;
+  color: #ffffff;
 }
 .cid-rM40FxQPfw input:-moz-placeholder,
 .cid-rM40FxQPfw textarea:-moz-placeholder {
-  color: #c1c1c1;
+  color: #ffffff;
 }
 .cid-rM40FxQPfw .jq-selectbox li,
 .cid-rM40FxQPfw .jq-selectbox li {
