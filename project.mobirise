@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Jimmy Ramokgoa",
-    "currentPage": "page2.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "politicsm4",
       "title": "PoliticsM4",
@@ -66,7 +66,7 @@
         "main": true,
         "title": "Jimmy Ramokgopa",
         "meta_descr": "Jimmy Ramokgopa graduated from the University of the Witwatersrand (Johannesburg) in 2014, holding a Bachelor of Science Degree in Engineering (Civil). He is a social activist, creative, writer and a professional in his field of operational management. His interests are in media, social justice, politics and socio-economics.",
-        "header_custom": "<meta name=\"twitter:card\" content=\"summary\" />\n<meta name=\"twitter:site\" content=\"@JimmyRamokgopa\" />\n<meta name=\"twitter:title\" content=\"Jimmy Ramokgopa\" />\n<meta name=\"twitter:description\" content=\"Collaboration, prosperity and unity.\" />\n<meta name=\"twitter:image\" content=\"https://ramokgopa.com/assets/images/about-me-706x501.png\" />",
+        "header_custom": "<meta name=\"twitter:card\" content=\"summary\" />\n<meta name=\"twitter:site\" content=\"@JimmyRamokgopa\" />\n<meta name=\"twitter:title\" content=\"Jimmy Ramokgopa\" />\n<meta name=\"twitter:description\" content=\"Collaboration, prosperity and unity.\" />\n<meta name=\"twitter:image\" content=\"https://ramokgopa.com/assets/images/meroon-508x508.png\" />",
         "footer_custom": "",
         "html_before": ""
       },
@@ -1192,7 +1192,7 @@
         "title": "About Jimmy Ramokgopa",
         "order": 1,
         "meta_descr": "It has been a journey of success and lessons from failures. Below is some of the work that I have been involved in.",
-        "header_custom": "<meta name=\"twitter:card\" content=\"summary\" />\n<meta name=\"twitter:site\" content=\"@JimmyRamokgopa\" />\n<meta name=\"twitter:title\" content=\"About Jimmy Ramokgopa\" />\n<meta name=\"twitter:description\" content=\"It has been a journey of success and lessons from failures. Below is some of the work that I have been involved in.\" />\n<meta name=\"twitter:image\" content=\"https://ramokgopa.com/assets/images/about-me-706x501.png\" />"
+        "header_custom": "<meta name=\"twitter:card\" content=\"summary\" />\n<meta name=\"twitter:site\" content=\"@JimmyRamokgopa\" />\n<meta name=\"twitter:title\" content=\"About Jimmy Ramokgopa\" />\n<meta name=\"twitter:description\" content=\"It has been a journey of success and lessons from failures. Below is some of the work that I have been involved in.\" />\n<meta name=\"twitter:image\" content=\"https://ramokgopa.com/assets/images/meroon-508x508.png\" />"
       },
       "components": [
         {
@@ -2184,7 +2184,7 @@
         "title": "Contact Me - Jimmy Ramokgopa",
         "order": 2,
         "meta_descr": "Let's get in touch. \n@JimmyRamokgopa",
-        "header_custom": "<meta name=\"twitter:card\" content=\"summary\" />\n<meta name=\"twitter:site\" content=\"@JimmyRamokgopa\" />\n<meta name=\"twitter:title\" content=\"Contact Jimmy Ramokgopa\" />\n<meta name=\"twitter:description\" content=\"It's time to fix the country.\" />\n<meta name=\"twitter:image\" content=\"https://ramokgopa.com/assets/images/about-me-706x501.png\" />"
+        "header_custom": "<meta name=\"twitter:card\" content=\"summary\" />\n<meta name=\"twitter:site\" content=\"@JimmyRamokgopa\" />\n<meta name=\"twitter:title\" content=\"Contact Jimmy Ramokgopa\" />\n<meta name=\"twitter:description\" content=\"It's time to fix the country.\" />\n<meta name=\"twitter:image\" content=\"https://ramokgopa.com/assets/images/meroon-508x508.png\" />"
       },
       "components": [
         {
