@@ -4465,7 +4465,7 @@ section.lazy-placeholder:after {
   right: 0;
   width: 65%;
   height: 100%;
-  background-color: #ed4266;
+  background-color: #87001d;
 }
 .cid-s3e0CcWw00 img {
   width: 100%;
@@ -4527,6 +4527,16 @@ section.lazy-placeholder:after {
   .cid-s3e0CcWw00 h4 {
     right: 2rem;
   }
+}
+.cid-s3e0CcWw00 H1 {
+  color: #ffffff;
+}
+.cid-s3e0CcWw00 .mbr-text,
+.cid-s3e0CcWw00 .mbr-section-btn {
+  color: #ffffff;
+}
+.cid-s3e0CcWw00 H4 {
+  color: #ffffff;
 }
 .cid-s3BZTE5VoL {
   padding-top: 90px;
