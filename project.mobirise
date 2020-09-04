@@ -4403,52 +4403,6 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            ".line": {
-              "width": "35px",
-              "height": "3px",
-              "display": "inline-block",
-              "background": "@lineColor",
-              "transition": "background 0.3s",
-              "margin-bottom": "2rem"
-            },
-            "H2": {
-              "color": "#36404c"
-            },
-            "H3": {
-              "color": "#36404c"
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "color": "#767676"
-            },
-            "@media (max-width: 992px)": {
-              ".md-pb": {
-                "padding-bottom": "2rem"
-              }
-            },
-            "img": {
-              "filter": "invert(0.5)"
-            }
-          },
-          "_name": "content02",
-          "_customHTML": "<section class=\"content02\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ed4266\" selected condition=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Signature\" name=\"showSign\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center align-left\">\n            <div class=\"col-lg-12 md-pb\">\n                <h3 class=\"mbr-section-subtitle pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">\n                    YouTube channel:</h3>\n                <h2 class=\"mbr-section-title mbr-bold pb-1 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">The Reset with Jimmy Ramokgopa&nbsp;</h2>\n\n                <div class=\"line-wrap\" mbr-if=\"showTitle\">\n                    <div class=\"line\"></div>\n                </div>\n                <p class=\"mbr-text py-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">What is normal? Normal is what we do everyday - and I hate normal.\n<br>\n<br>Join me on my journey of finding my passion. The series “The Reset with Jimmy Ramokgopa” is a vlog where I document the various milestones and activities related to the start of a new life. \n<br>\n<br>The channel comes after the global pandemic, where the economy is under severe constraints and many people are left without employment or a plan. The YouTube channel serves as inspiration and motivation for those who are feeling confused and anxious about their futures and current standings. \n<br>\n<br>Find your passion; find your happiness. \n<br>\n<br>I don’t want to just talk about it; I want to actually do it and document it. \n<br>\n<br>See the full trailer uploaded on YouTube. Please also subscribe to the channel and share.\n<br>\n<br>#ResetWithJimmy &nbsp;<br></p>\n\n                <img src=\"../_images/signature.png\" alt=\"Mobirise\" mbr-if=\"showSign\">\n\n            </div>\n\n\n        </div>\n    </div>\n</section>",
-          "_cid": "s9AbeBrSUc",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "content02-2c"
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value",
               "& when (@gradientBg)": {
@@ -5355,6 +5309,52 @@
           "_once": "menu",
           "_params": {},
           "_anchor": "extMenu8-29"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".line": {
+              "width": "35px",
+              "height": "3px",
+              "display": "inline-block",
+              "background": "@lineColor",
+              "transition": "background 0.3s",
+              "margin-bottom": "2rem"
+            },
+            "H2": {
+              "color": "#36404c"
+            },
+            "H3": {
+              "color": "#36404c"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#767676"
+            },
+            "@media (max-width: 992px)": {
+              ".md-pb": {
+                "padding-bottom": "2rem"
+              }
+            },
+            "img": {
+              "filter": "invert(0.5)"
+            }
+          },
+          "_name": "content02",
+          "_customHTML": "<section class=\"content02\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ed4266\" selected condition=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Signature\" name=\"showSign\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center align-left\">\n            <div class=\"col-lg-12 md-pb\">\n                <h3 class=\"mbr-section-subtitle pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">\n                    YouTube channel:</h3>\n                <h2 class=\"mbr-section-title mbr-bold pb-1 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">The Reset with Jimmy Ramokgopa&nbsp;</h2>\n\n                <div class=\"line-wrap\" mbr-if=\"showTitle\">\n                    <div class=\"line\"></div>\n                </div>\n                <p class=\"mbr-text py-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">What is normal? Normal is what we do everyday - and I hate normal.\n<br>\n<br>Join me on my journey of finding my passion. The series “The Reset with Jimmy Ramokgopa” is a vlog where I document the various milestones and activities related to the start of a new life. \n<br>\n<br>The channel comes after the global pandemic, where the economy is under severe constraints and many people are left without employment or a plan. The YouTube channel serves as inspiration and motivation for those who are feeling confused and anxious about their futures and current standings. \n<br>\n<br>Find your passion; find your happiness. \n<br>\n<br>I don’t want to just talk about it; I want to actually do it and document it. \n<br>\n<br>See the full trailer uploaded on YouTube. Please also subscribe to the channel and share.\n<br>\n<br>#ResetWithJimmy &nbsp;<br></p>\n\n                <img src=\"../_images/signature.png\" alt=\"Mobirise\" mbr-if=\"showSign\">\n\n            </div>\n\n\n        </div>\n    </div>\n</section>",
+          "_cid": "s9AbeBrSUc",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content02-2c"
         },
         {
           "alias": "mobirise4-blocks/components",
