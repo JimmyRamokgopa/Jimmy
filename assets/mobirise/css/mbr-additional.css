@@ -4424,6 +4424,18 @@ section.lazy-placeholder:after {
     opacity: 0.2;
   }
 }
+#custom-html-2f {
+  /* Type valid CSS here */
+}
+#custom-html-2f div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-2f p {
+  font-size: 60px;
+  color: #777;
+}
 .cid-s9Abrp2f4i {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -5245,31 +5257,6 @@ section.lazy-placeholder:after {
 }
 .cid-s9AbeBrSUc img {
   filter: invert(0.5);
-}
-.cid-s9AaqIaFvC .mbr-arrow {
-  background: #232323 !important;
-  opacity: .7;
-}
-.cid-s9AaqIaFvC .mbr-arrow i {
-  color: #ffffff !important;
-}
-.cid-s9AaqIaFvC .underline .line {
-  width: 2rem;
-  height: 1px;
-  background: #ffffff;
-  display: inline-block;
-}
-.cid-s9AaqIaFvC .animated-element,
-.cid-s9AaqIaFvC .typed-cursor {
-  color: #ffffff;
-}
-.cid-s9AaqIaFvC .animated-element {
-  border-bottom: 5px solid #f7aa4a;
-}
-@media (max-width: 767px) {
-  .cid-s9AaqIaFvC .typed-text {
-    text-align: center;
-  }
 }
 .cid-s9A8ZRJFdm {
   padding-top: 0px;
