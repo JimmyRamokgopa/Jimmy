@@ -4424,18 +4424,6 @@ section.lazy-placeholder:after {
     opacity: 0.2;
   }
 }
-#custom-html-2f {
-  /* Type valid CSS here */
-}
-#custom-html-2f div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#custom-html-2f p {
-  font-size: 60px;
-  color: #777;
-}
 .cid-s9A8ZQcprb {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -5125,6 +5113,85 @@ section.lazy-placeholder:after {
 .cid-s9A8ZR48qy .nav-link:hover,
 .cid-s9A8ZR48qy .dropdown-item:hover {
   color: #4284df;
+}
+.cid-sakr2AavIa .container-fluid {
+  padding: 0 3rem;
+}
+.cid-sakr2AavIa .mbr-media span {
+  font-size: 48px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  line-height: 6rem;
+  position: relative;
+  display: inline-block;
+  transition: all 0.25s;
+  color: #353535;
+}
+.cid-sakr2AavIa .mbr-media span.mbri-play:before {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-35%);
+  -moz-transform: translateX(-35%);
+  -ms-transform: translateX(-35%);
+  -o-transform: translateX(-35%);
+  transform: translateX(-35%);
+}
+.cid-sakr2AavIa .modalWindow {
+  display: none;
+  position: fixed;
+  z-index: 5000;
+  left: 0;
+  top: 0;
+  background-color: rgba(61, 61, 61, 0.65);
+  width: 100%;
+  height: 100%;
+}
+.cid-sakr2AavIa .modalWindow .modalWindow-container {
+  display: table-cell;
+  vertical-align: middle;
+}
+.cid-sakr2AavIa .modalWindow .modalWindow-video {
+  height: 44.9943757vw;
+  width: 80vw;
+  margin: 0 auto;
+}
+.cid-sakr2AavIa a.close {
+  position: absolute;
+  right: 4vw;
+  top: 4vh;
+  color: #ffffff;
+  z-index: 5000000;
+  font-size: 37px;
+  background: #000;
+  padding: 20px;
+  border-radius: 50%;
+}
+.cid-sakr2AavIa a.close:hover {
+  color: #ffffff;
+}
+.cid-sakr2AavIa svg {
+  transition: all 0.5s ease-in;
+}
+.cid-sakr2AavIa svg .blick {
+  transiton: opacity 0.5s ease-in;
+  opacity: 1;
+}
+.cid-sakr2AavIa svg:hover {
+  cursor: pointer;
+  -webkit-transform: rotate(120deg);
+  transform: rotate(120deg);
+}
+.cid-sakr2AavIa svg:hover .blick {
+  transition: opacity 0.5s ease-in;
+  opacity: 0;
+}
+@media (max-width: 767px) {
+  .cid-sakr2AavIa .container-fluid {
+    padding: 0 1rem;
+  }
 }
 .cid-s9Abrp2f4i {
   padding-top: 60px;
